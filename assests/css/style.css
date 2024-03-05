@@ -571,9 +571,11 @@ a:focus {
 /*------------------------------------------*/
 
 #hero {
+  color: black;
   position: relative;
   background-image: url(https://wallpapers.com/images/hd/shivaji-maharaj-throne-silhouette-on-orange-hd-ged3z2s6pkhgwpy7.jpg); 
   padding:  16%; 
+
 }
 
 .hero-txt .section-id {
@@ -689,7 +691,7 @@ a:focus {
   top: 0;
   left: 15%;
   z-index: -1;
-  -webkit-box-shadow: 0 6px 12px 0 rgba(0, 0, 0, .06);
+  -webkit-box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.06);
   -moz-box-shadow: 0 6px 12px 0 rgba(0, 0, 0, .06);
   box-shadow: 0 6px 12px 0 rgba(0, 0, 0, .06);
 }
@@ -704,13 +706,13 @@ a:focus {
 }
 
 .banner-1-txt h2 {
-  font-size: 3.95rem;
-  margin-bottom: 15px;
+  font-size: 2.95rem;
+  margin-bottom: 35px;
 }
 
 .banner-2-txt h2 {
-  font-size: 4.5rem;
-  margin-bottom: 10px;
+  font-size: 3.5rem;
+  margin-bottom: 30px;
 }
 
 .banner-1-txt p {
