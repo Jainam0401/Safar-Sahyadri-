@@ -232,7 +232,7 @@ a:focus {
 #main{
   background-image: url(./../images/icons/safar\ logo\ removed\ background.png);
   /* background-position-y: ; */
-  background-size: 65vh;
+  background-size: 55vh;
   background-repeat: no-repeat;
   background-position: center;
   
@@ -339,19 +339,19 @@ img{
 }
 
  #left-img{
-  height: 300px;
-  width: 200px;
+  height: 400px;
+  width: 250px;
   position: absolute;
   top:2%;
-  left : 4%;
+  left : 6%;
   border-radius: 30px;
 } 
 #right-img{
-  height: 300px;
-  width: 200px;
+  height: 400px;
+  width: 250px;
   position: absolute;
-  top:6%;
-  right : 4%;
+  top:4%;
+  right : 6%;
   border-radius: 30px;
  
 }
@@ -390,12 +390,12 @@ i{
 .section-id {
   display: block;
   color: #e55d42;
-  font-size: 0.925rem;
+  font-size: 0.8rem;
   line-height: 1;
   font-weight: 500; 
   text-transform: uppercase; 
   letter-spacing: 2px;
-  margin-bottom: 30px;  
+  margin-bottom: 20px;  
 }
 
 .section-title {
@@ -999,6 +999,57 @@ nav a#pull {
   .footer p { font-size: 1.2rem; }
 
 }
+
+@media  (max-width: 700.98px) {
+  #nav {
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+  }
+  #nav>img{
+    height: 100px;
+  }
+
+  #nav-2 {
+    display: none; /* Hide nav-2 for mobile */
+  }
+
+  #nav-3 {
+    display: none; /* Hide nav-3 for mobile */
+  }
+
+  #left-img,
+  #right-img {
+    display: none; /* Hide left-img and right-img for mobile */
+  }
+
+  #main {
+    background-size: 45vh;
+  }
+
+  #main h1 {
+    font-size: 45px;
+    line-height: 60px;
+    margin-top: 30vh;
+  }
+
+  #main h1 span {
+    padding: 0px 30px;
+    font-size: 15px;
+  }
+
+  h5 {
+    top: 4%;
+    font-size: 15px;
+  }
+
+  i {
+    font-size: 15px;
+    margin: 15px 2.5px;
+    padding: 10px 2.5px;
+  }
+}
+
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
 
