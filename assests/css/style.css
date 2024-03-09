@@ -116,7 +116,9 @@ a:focus {
 }
 
 .img-fluid {
-  display: inline-block; 
+  display: inline-block;
+  
+  
 }
 
 .btn {
@@ -788,37 +790,6 @@ i{
 }
 
 /*------------------------------------------*/
-/*  SERVICES  
-/*------------------------------------------*/
-
-#services {
-  padding-top: 120px;
-}
-
-.sbox-wrapper {
-  padding: 0 10px;
-}
-
-.sbox img {
-  width: 76px;
-  height: 76px;
-}
-
-.sbox p {
-  color: #363636;
-  font-size: 1rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-top: 30px;
-  margin-bottom: 0;
-}
-
-.sbox.sb-5 p {
-  padding: 0 12%;
-}
-
-/*------------------------------------------*/
 /*  SELECT    
 /*------------------------------------------*/
 
@@ -829,7 +800,11 @@ i{
   padding-bottom: 60px;
   z-index: 3;
 }
+.img-fluid{
+  height: 800px;
 
+
+}
 #select .col,
 #i-pages .col {
   position: relative;
@@ -977,12 +952,7 @@ nav a#pull {
   .hero-txt h2 { font-size: 4.85rem; margin-bottom: 5px; }
   .hero-txt p { font-size: 1.35rem; padding: 0 2%;margin-bottom: 32px; }
 
-  #services { padding-top: 100px; }
-  .sbox-wrapper { padding: 0; }
-  .sbox img { width: 68px; height: 68px; }
-
-  .sbox p { font-size: 0.95rem; letter-spacing: 0.5px; margin-top: 25px; }
-  .sbox.sb-5 p { padding: 0 8%; }
+ 
 
   #select, #i-pages { padding-top: 100px; padding-bottom: 40px; }
 
@@ -1039,7 +1009,7 @@ nav a#pull {
   }
 
   h5 {
-    top: 4%;
+    top: 5%;
     font-size: 15px;
   }
 

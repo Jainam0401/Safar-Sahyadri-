@@ -12,14 +12,14 @@ t1.from("#left-img",{
   x:-100,
   scale:0,
   opacity: 0,
-  delay:1
+  delay:0.5
 })
 
 t1.from("#right-img",{
   x:100,
   opacity: 0,
   scale:0,
-  delay:1
+  delay:0.5
 })
 
 t1.from("#main h1",{
