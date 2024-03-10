@@ -373,7 +373,7 @@ i{
   display: flex;
 }
 #footer{
-  margin: 20px;
+  padding-bottom: 10px;
 }
 
 
@@ -895,8 +895,8 @@ i{
 /*------------------------------------------*/   
 
 .footer {
-  padding-top: 80px;
-  padding-bottom: 60px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   position: relative;
   z-index: 1;
 }
@@ -906,7 +906,7 @@ i{
   font-size: 1.35rem; 
   line-height: 1.3;
   letter-spacing: 0;
-  margin-bottom: 8px;
+  margin-bottom: 0px;
 }
 
 /*------------------------------------------*/
@@ -1276,3 +1276,20 @@ nav a#pull {
   .footer p { font-size: 1.0625rem; }
 
 }
+
+#contact-page{
+  background-image: url(./../../background_image.jpg);
+  background-size: contain  ;
+  background-repeat: no-repeat;
+  height: 160vh;
+  /* width: 500vh; */
+}
+@media screen and (max-width: 700px) {
+  #contact-page {
+    background-image: url(./../../background_image.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60vh;
+  }
+}
+
